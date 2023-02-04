@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 5px solid red; DEBUG */
+}
+
+html {
+  background: #fff;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  padding: 5vh;
+}
+
+@media screen and (min-width: 480px) {
+  main {
+    flex-direction: row;
+    padding: 1vh;
+  }
+
+  figure {
+    display: flex;
+  }
+}
+
+.header {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+  padding: 1vh;
+}
+@media screen and (min-width: 480px) {
+  .header {
+    padding-bottom: 0;
+  }
+}
+
+.footer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 0.9em;
+  text-align: center;
+  color: #bdbdbd;
+  margin-top: auto;
+  padding-top: 4vh;
+}
+
+@media screen and (min-width: 480px) {
+  .footer {
+    padding-top: 1vh;
+  }
+}
+
+img {
+  margin-top: 2vh;
+  display: block;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  img {
+    width: 80vh;
+    margin: auto;
+  }
+}
+
+article {
+  margin-top: 7vh;
+}
+
+@media screen and (min-width: 480px) {
+  article {
+    margin-top: 4vh;
+  }
+}
+
+.news {
+  font-family: "Space Mono";
+  font-style: normal;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1.2em;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+@media screen and (min-width: 480px) {
+  .title {
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1.2em;
+    margin-bottom: 2vh;
+  }
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 1.8em;
+  line-height: 1em;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+  margin-top: 2vh;
+}
+
+@media screen and (min-width: 480px) {
+  .paragraph {
+    font-size: 2.8em;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin-bottom: 1vh;
+  }
+}
+
+.btn {
+  background: #333333;
+  border: none;
+  color: #fff;
+  padding: 2.4vh 3vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 2em;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  margin-top: 7vh;
+}
+@media screen and (min-width: 480px) {
+  .btn {
+    margin-top: 6vh;
+  }
+}
