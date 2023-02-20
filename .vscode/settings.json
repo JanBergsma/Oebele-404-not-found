@@ -1,4 +1,4 @@
 {
-  "stylelint.enable": false,
+  "stylelint.enable": true,
   "stylelint.config": null
 }

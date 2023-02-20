@@ -10,6 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
   /* outline: solid 5px red; */
 }
 
@@ -17,11 +18,11 @@
 
 :root {
   /* COLORS */
-  --background-color: #ffffff;
+  --background-color: #fff;
   --footer-color: #bdbdbd;
-  --primary-color: #333333;
-  --btn-color: #ffffff;
-  --btn-background-color: #333333;
+  --primary-color: #333;
+  --btn-color: #fff;
+  --btn-background-color: #333;
 }
 
 /* ELEMENTS */
@@ -47,7 +48,7 @@ button {
 }
 
 footer {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 500;
   font-size: 0.9em;
   text-align: center;
@@ -56,12 +57,12 @@ footer {
 }
 
 header {
-  font-family: "Inconsolata";
+  font-family: Inconsolata, monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 1.5em;
   letter-spacing: -0.08em;
-  padding: 1em 1em 1em 1em;
+  padding: 1em;
   text-transform: uppercase;
 }
 

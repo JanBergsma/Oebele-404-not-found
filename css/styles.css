@@ -1,26 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 5px solid red; DEBUG */
+
+  /* outline: 5px solid red; */
 }
 
 html {
   background: #fff;
-  height: 100%;
 }
 
 main {
   display: flex;
   flex-direction: column;
   min-height: 90vh;
-  padding: 5vh;
+  padding: 2em;
 }
 
 @media screen and (min-width: 480px) {
   main {
     flex-direction: row;
-    padding: 1vh;
+    padding: 1em;
+    min-height: 89vh;
   }
 
   figure {
@@ -29,16 +35,16 @@ main {
 }
 
 .header {
-  font-family: "Inconsolata";
-  font-style: normal;
+  font-family: Inconsolata, monospace;
   font-weight: 700;
   font-size: 1.4em;
   line-height: 1.2em;
   letter-spacing: -0.08em;
   text-transform: uppercase;
-  color: #333333;
-  padding: 1vh;
+  color: #333;
+  padding: 1em;
 }
+
 @media screen and (min-width: 480px) {
   .header {
     padding-bottom: 0;
@@ -46,107 +52,97 @@ main {
 }
 
 .footer {
-  font-family: "Montserrat";
-  font-style: normal;
+  font-family: Montserrat, sans-serif;
   font-weight: 500;
   font-size: 0.8em;
   line-height: 0.9em;
   text-align: center;
   color: #bdbdbd;
   margin-top: auto;
-  padding-top: 4vh;
-}
-
-@media screen and (min-width: 480px) {
-  .footer {
-    padding-top: 1vh;
-  }
 }
 
 img {
-  margin-top: 2vh;
   display: block;
-  width: 60vw;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
   img {
-    width: 80vh;
+    width: 80%;
     margin: auto;
   }
 }
 
 article {
-  margin-top: 7vh;
+  margin-top: 2em;
 }
 
 @media screen and (min-width: 480px) {
   article {
-    margin-top: 4vh;
+    margin-top: 3em;
   }
 }
 
 .news {
-  font-family: "Space Mono";
+  font-family: "Space Mono", monospace;
   font-style: normal;
 }
 
 .title {
+  color: #333;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 2em;
   line-height: 1.2em;
   letter-spacing: -0.035em;
-  color: #333333;
+  margin-bottom: 1em;
 }
 
 @media screen and (min-width: 480px) {
   .title {
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 900;
     line-height: 1.2em;
-    margin-bottom: 2vh;
   }
 }
 
 .paragraph {
+  color: #4f4f4f;
   font-weight: 400;
-  font-size: 1.8em;
+  font-size: 1.4em;
   line-height: 1em;
   letter-spacing: -0.035em;
-  color: #4f4f4f;
-  margin-top: 2vh;
 }
 
 @media screen and (min-width: 480px) {
   .paragraph {
-    font-size: 2.8em;
+    font-size: 1.8em;
     font-weight: 500;
     line-height: 1.4em;
-    margin-bottom: 1vh;
   }
 }
 
 .btn {
-  background: #333333;
+  background: #333;
   border: none;
   color: #fff;
   padding: 2.4vh 3vh;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Space Mono";
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 1.2em;
   line-height: 2em;
   letter-spacing: -0.035em;
+  margin-top: 5em;
   text-transform: uppercase;
-  margin-top: 7vh;
 }
+
 @media screen and (min-width: 480px) {
   .btn {
-    margin-top: 6vh;
+    margin-top: 4em;
   }
 }
